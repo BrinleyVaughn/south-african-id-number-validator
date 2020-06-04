@@ -1,0 +1,90 @@
+.validator-wrapper {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.validator-wrapper table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.validator-wrapper table, .validator-wrapper tbody {
+    background: none;
+    border: none;
+}
+
+.validator-wrapper tr{
+    border-bottom: 1px dotted #aaa;
+}
+
+.validator-wrapper th, .validator-wrapper td {
+    text-align: left;
+    border: none;
+}
+
+.validator-wrapper th {
+    font-weight: 600;
+}
+
+.validator-wrapper input[type="number"] {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.validator-wrapper input[type="submit"] {
+    background-color: #eee;
+    color: #000;
+    font-weight: 600;
+    transition: 0.2s;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.validator-wrapper input[type="submit"]:hover {
+    background-color: #242424;
+    color: #fff;
+    transition: 0.2s;
+}
+
+
+.validator-wrapper input::-webkit-outer-spin-button,
+.validator-wrapper input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.validator-wrapper input[type=number] {
+  -moz-appearance:textfield;
+}
+
+.validator-wrapper .validated {
+    background-color: #4caf50;
+    padding: 20px;
+    color: #fff;
+}
+
+.validator-wrapper .not-validated {
+    background-color: #f00;
+    padding: 20px;
+    color: #fff;
+}
+
+.validation-msg {
+    display: flex;
+    align-items: center;
+}
+    
+.validation-msg i {
+    margin-right: 10px;
+    font-size: 20px;
+    width: auto;
+}
+
+.validation-msg span {
+    display: block;
+    width: 90%;
+}
+
