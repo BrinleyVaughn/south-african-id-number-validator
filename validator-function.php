@@ -83,7 +83,7 @@ function bluCB1609_verify_id_number($id_number, $return_details = false) {
 		$last_digit = substr($sum, -1);
 
 		// 10 - $last_digit
-		$verify_check_digit = 10 - (int)$last_digit;
+		$verify_check_digit = (10 - (int)$last_digit) % 10;
 
 		// test expected last digit against the last digit in $id_number submitted
 		if ((int)$verify_check_digit !== (int)$check_digit) {
