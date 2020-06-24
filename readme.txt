@@ -1,11 +1,11 @@
 === South African ID Number Validator ===
-Contributors: blusilva
+Contributors: blusilva, Ruan Lueis
 Donate link: https://codeblock.co.za/donate/
 Tags: validation, south african id, form, shortcode, validator
 Requires at least: 5.0
 Tested up to: 5.4.1
 Requires PHP: 5.6.36
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -41,6 +41,10 @@ At the moment, only English is supported. A future update will include additiona
 Absolutely. You can add your own CSS using the default WordPress customiser.
 
 == Changelog ==
+
+= 1.2 =
+
+Changed line that compares expected check digit to actual check digit to prevent errors if the expected check value is 10. 24/06/2020
 
 = 1.1 =
 
